@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
   "theme": "dark",
   "copyOnSelect": false,
   "copyFormatting": false,
@@ -13,11 +13,11 @@
       "cursorShape": "filledBox",
       "cursorColor": "#DDD",
       "useAcrylic": true,
-      "acrylicOpacity": 0.3,
-      "backgroundImage": "C:\\Users\\gabri\\Pictures\\wallpapers\\wallpaper.jpg",
+      "acrylicOpacity": 1,
+      "backgroundImage": "C:\\Users\\gabri\\Pictures\\wallpapers\\dog-cyber-ll.jpg",
       "backgroundImageStretchMode": "uniformToFill",
-      "backgroundImageOpacity": 0.5,
-      "colorScheme": "Duotone Dark"
+      "backgroundImageOpacity": 0.1,
+      "colorScheme": "Framer"
     },
     "list": [
       {
@@ -37,6 +37,12 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
+      },
+      {
+          "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+          "hidden": false,
+          "name": "Ubuntu-20.04",
+          "source": "Windows.Terminal.Wsl"
       }
     ]
   },
@@ -44,25 +50,25 @@
   // See more schemes on https://windowsterminalthemes.dev/
   "schemes": [
     {
-      "name": "Duotone Dark",
-      "black": "#1f1d27",
-      "red": "#d9393e",
-      "green": "#2dcd73",
-      "yellow": "#d9b76e",
-      "blue": "#ffc284",
-      "purple": "#de8d40",
-      "cyan": "#2488ff",
-      "white": "#b7a1ff",
-      "brightBlack": "#353147",
-      "brightRed": "#d9393e",
-      "brightGreen": "#2dcd73",
-      "brightYellow": "#d9b76e",
-      "brightBlue": "#ffc284",
-      "brightPurple": "#de8d40",
-      "brightCyan": "#2488ff",
-      "brightWhite": "#eae5ff",
-      "background": "#1f1d27",
-      "foreground": "#b7a1ff"
+      "name": "UltraViolent",
+      "black": "#242728",
+      "red": "#ff0090",
+      "green": "#b6ff00",
+      "yellow": "#fff727",
+      "blue": "#47e0fb",
+      "purple": "#d731ff",
+      "cyan": "#0effbb",
+      "white": "#e1e1e1",
+      "brightBlack": "#636667",
+      "brightRed": "#fb58b4",
+      "brightGreen": "#deff8c",
+      "brightYellow": "#ebe087",
+      "brightBlue": "#7fecff",
+      "brightPurple": "#e681ff",
+      "brightCyan": "#69fcd3",
+      "brightWhite": "#f9f9f5",
+      "background": "#242728",
+      "foreground": "#c1c1c1"
     }
   ],
   "actions": [
