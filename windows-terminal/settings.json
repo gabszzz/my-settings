@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
   "theme": "dark",
   "copyOnSelect": false,
   "copyFormatting": false,
@@ -9,7 +9,7 @@
   "profiles": {
     "defaults": {
       "fontSize": 13,
-      "fontFace": "Monospace",
+      "fontFace": "Fira Code Retina",
       "cursorShape": "filledBox",
       "cursorColor": "#DDD",
       "useAcrylic": true,
@@ -17,7 +17,7 @@
       "backgroundImage": "C:\\Users\\gabri\\Pictures\\wallpapers\\dog-cyber-ll.jpg",
       "backgroundImageStretchMode": "uniformToFill",
       "backgroundImageOpacity": 0.1,
-      "colorScheme": "Framer"
+      "colorScheme": "Laser"
     },
     "list": [
       {
@@ -43,6 +43,12 @@
           "hidden": false,
           "name": "Ubuntu-20.04",
           "source": "Windows.Terminal.Wsl"
+      },
+      {
+          "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+          "hidden": false,
+          "name": "Ubuntu",
+          "source": "Windows.Terminal.Wsl"
       }
     ]
   },
@@ -50,25 +56,27 @@
   // See more schemes on https://windowsterminalthemes.dev/
   "schemes": [
     {
-      "name": "UltraViolent",
-      "black": "#242728",
-      "red": "#ff0090",
-      "green": "#b6ff00",
-      "yellow": "#fff727",
-      "blue": "#47e0fb",
-      "purple": "#d731ff",
-      "cyan": "#0effbb",
-      "white": "#e1e1e1",
-      "brightBlack": "#636667",
-      "brightRed": "#fb58b4",
-      "brightGreen": "#deff8c",
-      "brightYellow": "#ebe087",
-      "brightBlue": "#7fecff",
-      "brightPurple": "#e681ff",
-      "brightCyan": "#69fcd3",
-      "brightWhite": "#f9f9f5",
-      "background": "#242728",
-      "foreground": "#c1c1c1"
+      "name": "Laser",
+      "black": "#626262",
+      "red": "#ff8373",
+      "green": "#b4fb73",
+      "yellow": "#09b4bd",
+      "blue": "#fed300",
+      "purple": "#ff90fe",
+      "cyan": "#d1d1fe",
+      "white": "#f1f1f1",
+      "brightBlack": "#8f8f8f",
+      "brightRed": "#ffc4be",
+      "brightGreen": "#d6fcba",
+      "brightYellow": "#fffed5",
+      "brightBlue": "#f92883",
+      "brightPurple": "#ffb2fe",
+      "brightCyan": "#e6e7fe",
+      "brightWhite": "#ffffff",
+      "background": "#030d18",
+      "foreground": "#f106e3",
+      "selectionBackground": "#2e206a",
+      "cursorColor": "#00ff9c"
     }
   ],
   "actions": [
